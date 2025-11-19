@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Thailand Visa Services | Your Gateway to Thailand",
+  title: "ISSA Compass | Thailand Visa Services",
   description: "Expert visa services for Thailand. Get your DTV, Work Visa, SMART Visa, or Long-Term Residence visa with 99%+ approval rates.",
 };
 

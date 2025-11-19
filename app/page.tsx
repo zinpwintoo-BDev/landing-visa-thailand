@@ -15,9 +15,9 @@ function Navigation() {
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold">
               <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                ThaiVisa
+                ISSA
               </span>
-              <span className="text-white">Pro</span>
+              <span className="text-white"> Compass</span>
             </Link>
           </div>
 
@@ -493,8 +493,8 @@ function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">ThaiVisa</span>
-              <span className="text-white">Pro</span>
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">ISSA</span>
+              <span className="text-white"> Compass</span>
             </h3>
             <p className="text-gray-400 mb-4">
               Your trusted partner for Thailand visa services. Expert guidance, transparent pricing, and dedicated
@@ -586,7 +586,7 @@ function Footer() {
                 <svg className="h-5 w-5 mr-2 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span>info@thaivisapro.com</span>
+                <span>info@isaacompass.com</span>
               </li>
               <li className="flex items-center text-gray-400">
                 <svg className="h-5 w-5 mr-2 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -607,7 +607,7 @@ function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 ThaiVisaPro. All rights reserved.
+            © 2024 ISAA Compass. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-purple-400 text-sm transition-colors">

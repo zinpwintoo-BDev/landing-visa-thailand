@@ -14,9 +14,9 @@ function Navigation() {
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold">
               <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                ThaiVisa
+                ISSA
               </span>
-              <span className="text-white">Pro</span>
+              <span className="text-white"> Compass</span>
             </Link>
           </div>
 
@@ -586,8 +586,8 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="/" className="text-2xl font-bold">
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">ThaiVisa</span>
-              <span className="text-white">Pro</span>
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">ISSA</span>
+              <span className="text-white"> Compass</span>
             </Link>
           </div>
           <div className="flex space-x-6">
@@ -607,7 +607,7 @@ function Footer() {
         </div>
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 ThaiVisaPro. All rights reserved. | Prices in Thai Baht (฿)
+            © 2024 ISAA Compass. All rights reserved. | Prices in Thai Baht (฿)
           </p>
         </div>
       </div>
