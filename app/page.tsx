@@ -35,12 +35,12 @@ function Navigation() {
             <a href="#about" className="text-gray-300 hover:text-white transition-colors">
               About
             </a>
-            <a
-              href="#contact"
+            <Link
+              href="/get-started"
               className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full hover:from-purple-600 hover:to-pink-600 transition-all shadow-lg shadow-purple-500/25"
             >
               Get Started
-            </a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -76,12 +76,12 @@ function Navigation() {
               <a href="#about" className="text-gray-300 hover:text-white transition-colors">
                 About
               </a>
-              <a
-                href="#contact"
+              <Link
+                href="/get-started"
                 className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full text-center hover:from-purple-600 hover:to-pink-600 transition-all"
               >
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
         )}
@@ -168,10 +168,10 @@ interface VisaCardProps {
 function VisaCard({ title, subtitle, description, marketPrice, ourPrice, features, popular }: VisaCardProps) {
   return (
     <div
-      className={`relative rounded-2xl p-6 md:p-8 transition-all hover:scale-105 ${
+      className={`relative rounded-2xl p-6 md:p-8 transition-all duration-300 cursor-pointer hover:scale-105 hover:-translate-y-2 ${
         popular
-          ? "bg-gradient-to-b from-purple-500/20 to-pink-500/20 border-2 border-purple-500/50"
-          : "bg-white/5 border border-white/10 hover:border-white/20"
+          ? "bg-gradient-to-b from-purple-500/20 to-pink-500/20 border-2 border-purple-500/50 hover:from-purple-500/30 hover:to-pink-500/30 hover:shadow-2xl hover:shadow-purple-500/20"
+          : "bg-white/5 border border-white/10 hover:border-purple-500/50 hover:bg-gradient-to-b hover:from-purple-500/10 hover:to-pink-500/10 hover:shadow-xl hover:shadow-purple-500/10"
       }`}
     >
       {popular && (
@@ -206,13 +206,15 @@ function VisaCard({ title, subtitle, description, marketPrice, ourPrice, feature
         ))}
       </ul>
 
-      <button className={`mt-8 w-full py-3 rounded-full font-semibold transition-all ${
+      <Link
+        href="/get-started"
+        className={`mt-8 w-full py-3 rounded-full font-semibold transition-all block text-center ${
         popular
           ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:from-purple-600 hover:to-pink-600 shadow-lg shadow-purple-500/25"
           : "bg-white/10 text-white hover:bg-white/20 border border-white/10"
       }`}>
         Get Started
-      </button>
+      </Link>
     </div>
   );
 }
